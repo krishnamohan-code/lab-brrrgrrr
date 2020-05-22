@@ -99,24 +99,24 @@ document.querySelector(".btn-patty").onclick = function () {
 // Trial 2 - Setup event listener for the cheese button
 
 document.querySelector(".btn-cheese").onclick = function () {
-  state.Patty = !state.Patty;
+  state.Cheese = !state.Cheese;
   renderAll();
 };
 // Trial 2 - Setup event listener for the tomatoes button
 document.querySelector(".btn-tomatoes").onclick = function () {
-  state.Patty = !state.Patty;
+  state.Tomatoes = !state.Tomatoes;
   renderAll();
 };
 
 // Trial 2 - Setup event listener for the onion button
-document.querySelector(".btn-onion").onclick = function () {
-  state.Patty = !state.Patty;
+document.querySelector(".btn-onions").onclick = function () {
+  state.Onions = !state.Onions;
   renderAll();
 };
 
 // Trial 2 - Setup event listener for the lettuce button
 document.querySelector(".btn-lettuce").onclick = function () {
-  state.Patty = !state.Patty;
+  state.Lettuce = !state.Lettuce;
   renderAll();
 };
 
