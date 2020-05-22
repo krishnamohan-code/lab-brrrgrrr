@@ -1,16 +1,23 @@
 ![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-# ProGrad Lab | BRRRGRRR
+# ProGrad Lab | CricPro ScoreBoard
 
-Mama Jenny is the best cook you would ever met. She makes the most amazing burgers in her tiny diner across the street. Mama is extremely popular and has recently had the idea to take her business online. Unfortunately, she isn't the best at web development. Mama has heard of ProGrads and she thought you could do a great job. 
+## A Quick Introduction
 
-Help Mama create a website that'll attract more audience and help her make a living through it. Go to the `src/app.js` file and complete all the unfinished code to let her live here dream.
+Most Indians are madly in love with cricket. Remember? We all loved that moment when India lifted the world cup after 28 years. Even now, if you close your eyes and think of it, you can feel the adrenaline rushing through our veins.
+
+Yes, that moment when MS Dhoni was on strike. Nuwan Kulasekara was the bowler. It was the second ball of the 49th over. India required four runs from 11. Kulasekara bowls a full ball and Dhoni winds up to deposit the ball into the stands at long on. At that very moment, a billion Indian fans cheered and celebrated. History was made. After 28 years, on April 2, 2011, India had finally won the World Cup after defeating Sri Lanka by six wickets in the finals. 
+
+Woah! what an exciting finale! A cricket fan would cherish that moment.
+
+As a tribute to the Indian Cricket team, we at ProGrad wanted to build a ScoreBoard for our CricPro webiste. And we thought, who can do it better than our ProGrads?
+
 
 ## What should you do
 ```
 Fork this repo
 Clone this repo
-Practice DOM Features
+Practice JavaScript basics - operators, conditions, loops
 ```
 
 ## How To Submit
@@ -24,24 +31,22 @@ git push origin master
 And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
 ```
 
-### Progression 1: LAYERS
+## Instructions
+The starter-code contains all the files, images, and text content needed to create the scoreboard. The text is in the index.html, and a css file is created in main.css. Remember to follow the best practices.
 
-As your first task, you've got to enable the different layers of the burger on the screen. Create a `render()` for each ingredient and make sure that it displays the selected layer.
+### Progression 1: Set the mood
 
-### Progression 2: LAYER THEM UP
+Use the background image and CricPro logo to recreate the atmosphere
 
-Setup `EventListeners`, so that we can add or remove different ingredients by clicking on the respective ingredient buttons. That's the whole point of it.
+### Progression 2: Tabulate the scores
 
-### Challenge 1: IT GETS CHEESEY
+Now, using the data in the below expected output, tabulate the scores of our players.
 
-Make the ingredient buttons pop up based on their current active state. This would help customers identify what ingredients they've selected and what's left out.
+### Progression 3: Let the details Pop up 
+Once you have tabulated the scores, create a pop up which opens up on clicking a player's name.
 
-### Challenge 2: TAKE THE ORDER
+## Expected Output
+Here is a screenshot of the expected output.
+![Image description](https://i1.faceprep.in/ProGrad/cricpro.png)
 
-Show the customer only the ingredients that they've selected on the chalk board.
-
-### Challenge 3: BILL TIME
-
-The customer has had a good time customizing his brrrgrrr. Time for him to pay. Use ingredient prices to calculate the cost of a brrrgrrr and display it to the customer.
-
-Happy Coding ProGrad ❤️
+Happy Coding ❤️
